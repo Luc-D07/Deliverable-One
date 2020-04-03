@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+h1 {
+    
+    color: #20a8b4;
+}
+
+
+ul {
+    list-style-type: none;
+    
+    
+
+}
+
+a:link {
+    text-decoration: none;
+    padding: 5px;
+    text-align: left;
+   
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+
+.button{
+    background-color: #20a8b4;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+} 
+
+.button:hover {
+    background-color: #ff5c0f;
+    color: #fff;
+}
+
+
+
+
+/* THIS IS FOR WHAT IS ONLY IN MOBILE LAYOUT*/
+@media screen and (min-width: 480px) {
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        margin: 0px;
+        
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    h2{
+        padding-top: 75px;
+    }
+img{
+    display: none;
+}
+h1 {
+    margin:20px;
+}
+ul, li {
+    margin:10px;
+    padding: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+}
+
+
+
+
+/* THIS IS FOR DESKTOP ONLY*/
+@media screen and (min-width: 768px) {
+
+
+.button {
+    width: auto;
+}
+
+.flex-container {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+ul {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top:10px;
+    text-align:center;
+}
+
+h1 {
+   margin-top:10px;
+   text-align:left;
+
+}
+
+h2 {
+    margin-top:100px;
+}
+/* this is moving the image away from the right side*/
+div.relative {
+    position: relative;
+    right: 10%;
+}
+
+img {
+    display:block;
+    margin-top: 50px;
+}
+
+.bottom {
+    display:flex;
+    justify-content: space-between;
+    
+}
+}
+
+
